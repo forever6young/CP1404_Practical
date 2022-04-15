@@ -1,7 +1,8 @@
 """
-CP1404/CP5632 Practical
+CP1404 Practical
 State names in a dictionary
 File needs reformatting
+15/04/2022 done
 """
 
 # TODO: Reformat this file so the dictionary code follows PEP 8 convention
