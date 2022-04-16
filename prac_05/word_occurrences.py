@@ -2,10 +2,10 @@ def main():
     # Setup dict
     my_dict = {}
 
-    text = input('Text: ')
+    text = input("Text: ")
 
     # Remove white space
-    clean_text = ' '.join(text.split())
+    clean_text = " ".join(text.split())
 
     # Split data
     raw_data = clean_text.split()
@@ -19,12 +19,12 @@ def main():
         else:
             my_dict[word] = 1
 
-    # Find longest word
+    # Find the longest word
     longest_word_len = max([len(key) for key in my_dict])
 
     # Print result
     for key, value in my_dict.items():
-        print('{0:<{1}} : {2}'.format(key, longest_word_len, value))
+        print("{0:<{1}} : {2}".format(key, longest_word_len, value))
 
 
 main()
