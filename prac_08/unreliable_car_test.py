@@ -3,8 +3,8 @@ from prac_08.unreliable_car import UnreliableCar
 
 
 def main():
-    reliable_car = UnreliableCar("Good", 100, 100)
-    unreliable_car = UnreliableCar("Bad", 100, 9)
+    reliable_car = UnreliableCar("Good", 100, 99)
+    unreliable_car = UnreliableCar("Bad", 100, 6)
 
     for i in range(1, 10):
         print("Attempting to drive {}km:".format(i))
